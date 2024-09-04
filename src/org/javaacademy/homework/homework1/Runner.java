@@ -14,7 +14,11 @@ public class Runner {
     public static final String TEMPERATURE_OF_JANUARY = "0,-1,-1,-2,-5,-6,-7,-8,-9,-10,-5,-5,-2,-7,-3,-1,-8,-9,-8,-8,-18,-20,-23,-24,-25,-9,-8,-7,-6,-5,-1";
     public static final String TEMPERATURE_OF_FEBRUARY = "-8,-10,-12,-13,-15,-16,-12,-7,-8,-10,-10,-9,-8,-8,-8,-9,-10,-9,-5,-6,-8,-7,-8,-9,-6,-5,-3,-1";
     public static final String SEPARATOR = ",";
+
     public static void main(String[] args) {
+        ex1();
+        ex2();
+        ex3();
         //Задание №1 Зоопарк
         //1. Создать три вида животных: Тигр - умеетFebruary рычать, Собака - умеет лаять, Птица - умеет летать.
         //Общий родитель - животное (никаких атрибутов и методов в нем нет).
@@ -30,14 +34,7 @@ public class Runner {
         //Получили второе животное (собака) - вызвали у него лай
         //Получили первое животное (птица) - вызвали у него полет
         //Запрещено пользоваться instanceOf.
-        Zoo<Tiger, Dog, Bird> zoo = new Zoo<>(new Tiger(), new Dog(), new Bird());
 
-        Tiger tiger = zoo.getAnimal1();
-        tiger.growl();
-        Dog dog = zoo.getAnimal2();
-        dog.bark();
-        Bird bird = zoo.getAnimal3();
-        bird.fly();
 
         //Задание №2 Гидрометцентр
         //Создать две структуры данных, в которых будет статистика по дням (среднесуточная температура воздуха)
@@ -45,6 +42,26 @@ public class Runner {
         //Февраль: -8,-10,-12,-13,-15,-16,-12,-7,-8,-10,-10,-9,-8,-8,-8,-9,-10,-9,-5,-6,-8,-7,-8,-9,-6,-5,-3,-1
         //Объединить данные за январь и февраль, посчитать среднесуточную температуру воздуха за 2 месяца.
         //Запрещено использовать массивы.
+        //Задание №3 Ресторанный гуру
+        //Николай Петрович ходит по ресторанам. За 5 дней он был во множестве ресторанов.
+        //Он обратился к вам, чтобы узнать в каком ресторане(ах) он был каждый день
+        // (т.е. найти ресторан(ы) в которых он был и в понедельник, и во вторник, и в среду и тд).
+
+    }
+
+    public static void ex1() {
+        Zoo<Tiger, Dog, Bird> zoo = new Zoo<>(new Tiger(), new Dog(), new Bird());
+
+        Tiger tiger = zoo.getAnimal1();
+        tiger.growl();
+
+        Dog dog = zoo.getAnimal2();
+        dog.bark();
+
+        Bird bird = zoo.getAnimal3();
+        bird.fly();
+
+    }public static void ex2() {
         String[] temperaturesOfJanuary = TEMPERATURE_OF_JANUARY.split(SEPARATOR);
         String[] temperaturesOfFebruary = TEMPERATURE_OF_FEBRUARY.split(SEPARATOR);
         ArrayList<BigDecimal> januaryTemperature = new ArrayList<>();
@@ -52,9 +69,9 @@ public class Runner {
 
         for (int i = 0; i < temperaturesOfJanuary.length; i++) {
             januaryTemperature.add(new BigDecimal(temperaturesOfJanuary[i]));
-                if (i < temperaturesOfFebruary.length) {
-                    februaryTemperature.add(new BigDecimal(temperaturesOfFebruary[i]));
-                }
+            if (i < temperaturesOfFebruary.length) {
+                februaryTemperature.add(new BigDecimal(temperaturesOfFebruary[i]));
+            }
         }
 
         ArrayList<BigDecimal> combineTemperature = new ArrayList<>(januaryTemperature);
@@ -70,10 +87,7 @@ public class Runner {
 
         System.out.printf("среднесуточная температура воздуха за 2 месяца: %s\n", averageTemperature);
 
-        //Задание №3 Ресторанный гуру
-        //Николай Петрович ходит по ресторанам. За 5 дней он был во множестве ресторанов.
-        //Он обратился к вам, чтобы узнать в каком ресторане(ах) он был каждый день
-        // (т.е. найти ресторан(ы) в которых он был и в понедельник, и во вторник, и в среду и тд).
+    }public static void ex3() {
         ArrayList<String> monday = new ArrayList<>(List.of("Чебуречная №1", "Реберная", "Андерсон", "Ниппон", "Фо бо"));
         ArrayList<String> tuesday = new ArrayList<>(List.of("Вареничная №1", "Пушкин", "Чебуречная №1", "Ниппон", "Реберная"));
         ArrayList<String> wednesday = new ArrayList<>(List.of("Реберная", "Арарат", "Майя", "Ниппон", "Таксим"));
