@@ -5,6 +5,8 @@ import org.javaacademy.homework.homework1.ex1.animal.Bird;
 import org.javaacademy.homework.homework1.ex1.animal.Dog;
 import org.javaacademy.homework.homework1.ex1.animal.Tiger;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -45,29 +47,28 @@ public class Runner {
         //Запрещено использовать массивы.
         String[] temperaturesOfJanuary = TEMPERATURE_OF_JANUARY.split(SEPARATOR);
         String[] temperaturesOfFebruary = TEMPERATURE_OF_FEBRUARY.split(SEPARATOR);
-        ArrayList<Integer> januaryTemperature = new ArrayList<>();
-        ArrayList<Integer> februaryTemperature = new ArrayList<>();
+        ArrayList<BigDecimal> januaryTemperature = new ArrayList<>();
+        ArrayList<BigDecimal> februaryTemperature = new ArrayList<>();
+
         for (int i = 0; i < temperaturesOfJanuary.length; i++) {
-            januaryTemperature.add(Integer.parseInt(temperaturesOfJanuary[i]));
+            januaryTemperature.add(new BigDecimal(temperaturesOfJanuary[i]));
                 if (i < temperaturesOfFebruary.length) {
-                    februaryTemperature.add(Integer.parseInt(temperaturesOfFebruary[i]));
+                    februaryTemperature.add(new BigDecimal(temperaturesOfFebruary[i]));
                 }
         }
 
-        ArrayList<Integer> combineTemperature = new ArrayList<>(januaryTemperature);
+        ArrayList<BigDecimal> combineTemperature = new ArrayList<>(januaryTemperature);
         combineTemperature.addAll(februaryTemperature);
 
-        double averageTemperature = 0.0;
-        for (Integer temperatureOfDay : combineTemperature) {
-            averageTemperature += temperatureOfDay;
+        BigDecimal averageTemperature = BigDecimal.ZERO;
+
+        for (BigDecimal temperatureOfDay : combineTemperature) {
+            averageTemperature = averageTemperature.add(temperatureOfDay);
         }
 
-        averageTemperature /= combineTemperature.size();
-        System.out.printf("среднесуточная температура воздуха за 2 месяца - %f\n", averageTemperature);
+        averageTemperature = averageTemperature.divide(new BigDecimal(combineTemperature.size()), 1, RoundingMode.HALF_UP);
 
-
-
-
+        System.out.printf("среднесуточная температура воздуха за 2 месяца: %s\n", averageTemperature);
 
         //Задание №3 Ресторанный гуру
         //Николай Петрович ходит по ресторанам. За 5 дней он был во множестве ресторанов.
@@ -85,8 +86,12 @@ public class Runner {
         intersectionOfRestaurants.retainAll(thursday);
         intersectionOfRestaurants.retainAll(friday);
 
-        System.out.printf("ресторан(ы) в которых Николай Петрович был и в понедельник, и во вторник, и в среду и тд - %s\n",
-                intersectionOfRestaurants);
+        if (!intersectionOfRestaurants.isEmpty()) {
+            System.out.printf("ресторан(ы) в которых Николай Петрович был во все дни - %s\n",
+                    intersectionOfRestaurants);
+        } else {
+            System.out.println("Нет ресторанов в которых Николай Петрович был во все дни");
+        }
 
     }
 }
