@@ -40,10 +40,7 @@ public class Runner {
 
 
     public static Map<String, Integer> infoBaggage (String FILE_NAME) throws IOException {
-        Map<String, Integer> customsStatistics = new HashMap<String, Integer>(){};
-        customsStatistics.put("Легкий", 0);
-        customsStatistics.put("Средний", 0);
-        customsStatistics.put("Тяжелый" , 0);
+        Map<String, Integer> customsStatistics = new HashMap<>(Map.of("Легкий", 0, "Средний", 0, "Тяжелый" , 0)){};
         int weigthOfBaggage = 0;
 
         try (InputStream resourceAsStream = Runner.class.getClassLoader().getResourceAsStream(FILE_NAME);
@@ -53,11 +50,11 @@ public class Runner {
                 weigthOfBaggage = Integer.parseInt(scanner.nextLine().split(SEPARATOR)[BAGGAGE_WEIGHT_CELL]);
 //                легкий (до 5 кг), средний (от 5 кг до 10кг), тяжелый (от 10 кг)
                 if (weigthOfBaggage < 5) {
-                    customsStatistics.put("Легкий", customsStatistics.get("Легкий") + 1);
+                    customsStatistics.put("Легкий", customsStatistics.get("Легкий") + weigthOfBaggage);
                 } else if (weigthOfBaggage >= 5 && weigthOfBaggage < 10) {
-                    customsStatistics.put("Средний", customsStatistics.get("Средний") + 1);
+                    customsStatistics.put("Средний", customsStatistics.get("Средний") + weigthOfBaggage);
                 } else {
-                    customsStatistics.put("Тяжелый", customsStatistics.get("Тяжелый") + 1);
+                    customsStatistics.put("Тяжелый", customsStatistics.get("Тяжелый") + weigthOfBaggage);
                 }
             }
         }

@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efe27864-1517-46f5-ade9-35a0aa05d3cc" name="Changes" comment="HW1">
-      <change afterPath="$PROJECT_DIR$/resources/luggage.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework2/Runner.java" afterDir="false" />
+    <list default="true" id="efe27864-1517-46f5-ade9-35a0aa05d3cc" name="Changes" comment="HW2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_2_4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/module_2_4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/homework/homework2/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework2/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +117,9 @@
       <workItem from="1725473532105" duration="6179000" />
       <workItem from="1725515204138" duration="4367000" />
       <workItem from="1725610395647" duration="10291000" />
-      <workItem from="1725881610656" duration="3380000" />
+      <workItem from="1725881610656" duration="6300000" />
+      <workItem from="1725988338536" duration="750000" />
+      <workItem from="1726131475385" duration="699000" />
     </task>
     <task id="LOCAL-00001" summary="HW1">
       <option name="closed" value="true" />
@@ -177,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725542521296</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="HW2">
+      <option name="closed" value="true" />
+      <created>1725886088785</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725886088785</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +194,17 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="HW1" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW1" />
+    <MESSAGE value="HW2" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
