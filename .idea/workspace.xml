@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efe27864-1517-46f5-ade9-35a0aa05d3cc" name="Changes" comment="HW2">
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex1/Garden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex1/fruit/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex1/fruit/Apricot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex1/fruit/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex2/Divination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex2/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex3/Uran.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex3/Wood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex4/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex4/Boat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex4/Ruler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex5/Review.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/homework/homework2/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework2/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -35,30 +48,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Runner.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.org.javaacademy.homework.homework2.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ai.codium.settings.CodiumSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Runner.executor": "Debug",
+    "Application.org.javaacademy.homework.homework2.Runner.executor": "Run",
+    "Application.org.javaacademy.homework.homework3.Runner.executor": "Run",
+    "Java Scratch.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ai.codium.settings.CodiumSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.javaacademy.homework.homework3.ex1" />
       <recent name="org.javaacademy.homework.homework1.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.javaacademy.homework.homework2.Runner">
+  <component name="RunManager" selected="Application.org.javaacademy.homework.homework3.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.javaacademy.homework.homework1.Runner" />
       <module name="module_2_4" />
@@ -85,8 +106,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.javaacademy.homework.homework3.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.javaacademy.homework.homework3.Runner" />
+      <module name="module_2_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.javaacademy.homework.homework3.ex4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.javaacademy.homework.homework3.Runner" />
+        <item itemvalue="Java Scratch.Main" />
         <item itemvalue="Application.org.javaacademy.homework.homework2.Runner" />
         <item itemvalue="Application.Runner" />
       </list>
@@ -119,7 +162,15 @@
       <workItem from="1725610395647" duration="10291000" />
       <workItem from="1725881610656" duration="6300000" />
       <workItem from="1725988338536" duration="750000" />
-      <workItem from="1726131475385" duration="699000" />
+      <workItem from="1726131475385" duration="1461000" />
+      <workItem from="1726133042024" duration="900000" />
+      <workItem from="1726139628770" duration="24000" />
+      <workItem from="1726151562748" duration="31000" />
+      <workItem from="1726225793482" duration="1051000" />
+      <workItem from="1726390957995" duration="1273000" />
+      <workItem from="1726552386245" duration="82000" />
+      <workItem from="1726564637571" duration="2989000" />
+      <workItem from="1726655897684" duration="19567000" />
     </task>
     <task id="LOCAL-00001" summary="HW1">
       <option name="closed" value="true" />
@@ -185,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725886088785</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="HW2">
+      <option name="closed" value="true" />
+      <created>1726132299999</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726132299999</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +263,11 @@
           <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/javaacademy/homework/homework3/Runner.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
