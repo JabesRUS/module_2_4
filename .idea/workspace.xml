@@ -4,21 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efe27864-1517-46f5-ade9-35a0aa05d3cc" name="Changes" comment="HW2">
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex1/Garden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex1/fruit/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex1/fruit/Apricot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex1/fruit/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex2/Divination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex2/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex3/Uran.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex3/Wood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex4/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex4/Boat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex4/Ruler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/ex5/Review.java" afterDir="false" />
+    <list default="true" id="efe27864-1517-46f5-ade9-35a0aa05d3cc" name="Changes" comment="HW3">
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework4/ex1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework4/ex1/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework4/ex2/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework4/ex3/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework4/ex3/Skyscraper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/homework/homework1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework1/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/homework/homework1/ex1/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework1/ex1/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/homework/homework1/ex1/animal/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework1/ex1/animal/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/homework/homework1/ex1/animal/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework1/ex1/animal/Tiger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/homework/homework2/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework2/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +50,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Runner.executor": "Debug",
+    "Application.Runner.executor": "Run",
     "Application.org.javaacademy.homework.homework2.Runner.executor": "Run",
     "Application.org.javaacademy.homework.homework3.Runner.executor": "Run",
+    "Application.org.javaacademy.homework.homework4.ex1.Runner.executor": "Run",
+    "Application.org.javaacademy.homework.homework4.ex2.Runner.executor": "Run",
     "Java Scratch.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Projects/module_2_4/google_checks.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ai.codium.settings.CodiumSettingsConfigurable",
+    "settings.editor.selected.configurable": "org.infernus.idea.checkstyle.CheckStyleConfigurable",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -79,26 +81,13 @@
       <recent name="org.javaacademy.homework.homework1.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.javaacademy.homework.homework3.Runner">
+  <component name="RunManager" selected="Application.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.javaacademy.homework.homework1.Runner" />
+      <option name="MAIN_CLASS_NAME" value="org.javaacademy.homework.homework4.ex3.Runner" />
       <module name="module_2_4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.javaacademy.homework.homework1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.javaacademy.homework.homework2.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.javaacademy.homework.homework2.Runner" />
-      <module name="module_2_4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.javaacademy.homework.homework2.*" />
+          <option name="PATTERN" value="org.javaacademy.homework.homework4.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,6 +108,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.javaacademy.homework.homework4.ex1.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.javaacademy.homework.homework4.ex1.Runner" />
+      <module name="module_2_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.javaacademy.homework.homework4.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.javaacademy.homework.homework4.ex2.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.javaacademy.homework.homework4.ex2.Runner" />
+      <module name="module_2_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.javaacademy.homework.homework4.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Java Scratch" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
@@ -128,10 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.org.javaacademy.homework.homework4.ex2.Runner" />
+        <item itemvalue="Application.org.javaacademy.homework.homework4.ex1.Runner" />
         <item itemvalue="Application.org.javaacademy.homework.homework3.Runner" />
         <item itemvalue="Java Scratch.Main" />
-        <item itemvalue="Application.org.javaacademy.homework.homework2.Runner" />
-        <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +186,9 @@
       <workItem from="1726390957995" duration="1273000" />
       <workItem from="1726552386245" duration="82000" />
       <workItem from="1726564637571" duration="2989000" />
-      <workItem from="1726655897684" duration="19567000" />
+      <workItem from="1726655897684" duration="19979000" />
+      <workItem from="1727081539771" duration="8783000" />
+      <workItem from="1727247434615" duration="3617000" />
     </task>
     <task id="LOCAL-00001" summary="HW1">
       <option name="closed" value="true" />
@@ -244,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726132299999</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="HW3">
+      <option name="closed" value="true" />
+      <created>1726730976492</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726730976492</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +280,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="HW1" />
     <MESSAGE value="HW2" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW2" />
+    <MESSAGE value="HW3" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

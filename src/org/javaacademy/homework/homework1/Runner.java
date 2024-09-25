@@ -61,7 +61,9 @@ public class Runner {
         Bird bird = zoo.getAnimal3();
         bird.fly();
 
-    }public static void ex2() {
+    }
+
+    public static void ex2() {
         String[] temperaturesOfJanuary = TEMPERATURE_OF_JANUARY.split(SEPARATOR);
         String[] temperaturesOfFebruary = TEMPERATURE_OF_FEBRUARY.split(SEPARATOR);
         ArrayList<BigDecimal> januaryTemperature = new ArrayList<>();

@@ -40,7 +40,8 @@ public class Runner {
 
 
     public static Map<String, Integer> infoBaggage (String FILE_NAME) throws IOException {
-        Map<String, Integer> customsStatistics = new HashMap<>(Map.of("Легкий", 0, "Средний", 0, "Тяжелый" , 0)){};
+        Map<String, Integer> customsStatistics = new HashMap<>(Map.of("Легкий", 0, "Средний", 0
+                ,"Тяжелый" , 0)){};
         int weigthOfBaggage = 0;
 
         try (InputStream resourceAsStream = Runner.class.getClassLoader().getResourceAsStream(FILE_NAME);

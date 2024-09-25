@@ -5,7 +5,7 @@ import org.javaacademy.homework.homework1.ex1.animal.Tiger;
 
 import javax.lang.model.util.TypeKindVisitor14;
 
-public class Zoo <T1 extends Animal, T2 extends Animal, T3 extends Animal> {
+public class Zoo<T1 extends Animal, T2 extends Animal, T3 extends Animal> {
     private T1 animal1;
     private T2 animal2;
     private T3 animal3;
