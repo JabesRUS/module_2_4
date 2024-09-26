@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efe27864-1517-46f5-ade9-35a0aa05d3cc" name="Changes" comment="HW3">
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework4/ex1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework4/ex1/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework4/ex2/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework4/ex3/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework4/ex3/Skyscraper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+    <list default="true" id="efe27864-1517-46f5-ade9-35a0aa05d3cc" name="Changes" comment="HW4">
+      <change afterPath="$PROJECT_DIR$/google_checks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/javaacademy/homework/homework1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework1/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/homework/homework1/ex1/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework1/ex1/Zoo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/homework/homework1/ex1/animal/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework1/ex1/animal/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/homework/homework1/ex1/animal/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework1/ex1/animal/Tiger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/homework/homework2/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework2/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework3/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/javaacademy/homework/homework4/ex3/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/javaacademy/homework/homework4/ex3/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,34 +38,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Runner.executor": "Run",
-    "Application.org.javaacademy.homework.homework2.Runner.executor": "Run",
-    "Application.org.javaacademy.homework.homework3.Runner.executor": "Run",
-    "Application.org.javaacademy.homework.homework4.ex1.Runner.executor": "Run",
-    "Application.org.javaacademy.homework.homework4.ex2.Runner.executor": "Run",
-    "Java Scratch.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Projects/module_2_4/google_checks.xml",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.infernus.idea.checkstyle.CheckStyleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.javaacademy.homework.homework2.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.javaacademy.homework.homework3.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.javaacademy.homework.homework4.ex1.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.javaacademy.homework.homework4.ex2.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/module_2_4/google_checks.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.infernus.idea.checkstyle.CheckStyleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.javaacademy.homework.homework3.ex1" />
@@ -188,7 +179,8 @@
       <workItem from="1726564637571" duration="2989000" />
       <workItem from="1726655897684" duration="19979000" />
       <workItem from="1727081539771" duration="8783000" />
-      <workItem from="1727247434615" duration="3617000" />
+      <workItem from="1727247434615" duration="7044000" />
+      <workItem from="1727258304249" duration="4419000" />
     </task>
     <task id="LOCAL-00001" summary="HW1">
       <option name="closed" value="true" />
@@ -270,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726730976492</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="HW4">
+      <option name="closed" value="true" />
+      <created>1727251564438</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727251564438</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +281,8 @@
     <MESSAGE value="HW1" />
     <MESSAGE value="HW2" />
     <MESSAGE value="HW3" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW3" />
+    <MESSAGE value="HW4" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

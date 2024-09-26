@@ -85,7 +85,8 @@ public class Runner {
             averageTemperature = averageTemperature.add(temperatureOfDay);
         }
 
-        averageTemperature = averageTemperature.divide(new BigDecimal(combineTemperature.size()), 1, RoundingMode.HALF_UP);
+        averageTemperature = averageTemperature
+                .divide(new BigDecimal(combineTemperature.size()), 1, RoundingMode.HALF_UP);
 
         System.out.printf("среднесуточная температура воздуха за 2 месяца: %s\n", averageTemperature);
 

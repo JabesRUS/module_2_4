@@ -35,7 +35,9 @@ public class Runner {
         //4.4. Вывести те небоскребы, которые выше километра.
         System.out.println("------------------------");
         towerList2.stream().filter(tower -> tower.getHeight() > ONE_KILLOMETER)
-                .forEach(System.out::println);
+                .findAny()
+                .ifPresentOrElse(tower -> System.out.println(tower.toString()),
+                        () -> System.out.println("небоскреба выше километра - нет."));
         //Если выше километра нет, то вывести на экран: небоскреба выше километра - нет.
     }
 }
